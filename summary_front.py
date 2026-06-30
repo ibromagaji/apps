@@ -1,11 +1,10 @@
 import streamlit as st
 import requests
 
-# =========================================================
-# Just change this one line to point at your FastAPI backend
-# =========================================================
-FASTAPI_URL = "http://summary.fastapps.duckdns.org"
-# =========================================================
+
+#FASTAPI_URL = "http://summary.fastapps.duckdns.org"
+FASTAPI_URL = "https://lqwultkobazz6x5s6gtvnm23ri0dxisc.lambda-url.us-east-1.on.aws"
+
 
 st.set_page_config(page_title="LLM Hub", page_icon="🤖", layout="centered")
 

@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-FASTAPI_URL = "http://crypto.fastapps.duckdns.org"
+#FASTAPI_URL = "http://crypto.fastapps.duckdns.org"
+FASTAPI_URL = "https://3x5zi5rdzaeuog43y54hy4gtxq0teeqn.lambda-url.us-east-1.on.aws"
 
 
 st.set_page_config(
